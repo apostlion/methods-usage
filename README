@@ -4,11 +4,27 @@ occurrences using some certain rules.
 
 == Usage ==
 
-Just run the .rb file.
+Just run the .rb file. If you want to test the methods of a certain gem in
+addition to the standard library, modify the require's in the header 
+accordingly.
 
 == How it works? ==
 
 All relevant comments are in the method_counter.rb file.
+
+Just for the note, the way this script and Rails are written, it cannot analyze
+Rails gems for their methods.
+
+== Results ==
+
+results.csv contains the sample (post-formatted) result file based on ~800
+methods from ruby standard library, open-uri, cgi, rubygems and hpricot 
+libraries.
+
+The most used methods are, understandably, #new and #each. 
+
+39 methods, including such gems as #default_system_source_cache_dir or
+#is_complex_yaml? haven't been used a single time in Google Code Search db.
 
 == License ==
 
