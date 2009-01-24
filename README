@@ -1,0 +1,15 @@
+This is a simple script that gathers the methods known to the current
+environment, and queries them on a Google Code Search for a number of 
+occurrences using some certain rules.
+
+== Usage ==
+
+Just run the .rb file.
+
+== How it works? ==
+
+All relevant comments are in the method_counter.rb file.
+
+== License ==
+
+This script and accompanying files are public domain.
